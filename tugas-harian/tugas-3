@@ -1,0 +1,24 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+
+int a;
+cout << "menu makanan " << endl;
+cout <<" 1. nasi padang "<< endl;
+cout << " 2. mie goreng  "<< endl;
+
+cout<<" masukan pilihan anda: ";
+cin>> a ;
+
+if (a ==1){
+    cout <<"anda memesan nasi padang";
+}
+else if (a ==2){
+    cout <<" anda memesan mie goreng";
+}
+else {
+    cout << " anda tidak memesan";
+}
+    return 0;
+}

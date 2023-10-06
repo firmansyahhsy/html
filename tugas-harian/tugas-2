@@ -1,0 +1,33 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+int hari;
+cout << "hari keberapa kah sekarang?  " ;
+cin >> hari ;
+if ( hari==1) {
+    cout << "hari senin" ;
+}
+else if (hari==2 ){
+    cout << "hari selasa ";
+}
+else if ( hari==3){
+    cout << "hari rabu ";
+}
+else if ( hari==4){
+    cout <<"hari kamis";
+}
+else if ( hari==5){
+    cout <<"hari jumat";
+}
+else if (hari==6){
+    cout <<"hari sabtu";
+}
+else if ( hari==7)
+    cout<<"hari minggu";
+else { 
+    cout << "tidak ada hari ke 8 dan seterusnya.";
+}
+    return 0;
+}
