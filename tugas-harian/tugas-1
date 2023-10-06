@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+int umur;
+cout << "berapakah umur anda? " ;
+cin >> umur ;
+if ( umur >= 18) {
+    cout << " anda bisa membeli tiket bioskop" ;
+}
+else { 
+    cout << " anda belum mencukupi umur, untuk membeli tiket bioskop";
+}
+    return 0;
+}
